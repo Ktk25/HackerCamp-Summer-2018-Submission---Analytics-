@@ -8,10 +8,13 @@ Below is the Python 3.6 code to solve the Analytics Assignent.
 import numpy as np
 import pandas as pd
 
-#reading the csv file
+# loading data through csv file
+def load_data():
+    headings  = ['Last_name', 'Date_of_birth', 'Gender', 'First_name']
+    data = pd.read_csv('D:/ML/Deduplication Problem - Sample Dataset.csv', names = headings, skiprows = 1)
+    return data
 
-headings  = ['Last_name', 'Date_of_birth', 'Gender', 'First_name']
-data = pd.read_csv('D:/ML/Deduplication Problem - Sample Dataset.csv', names = headings, skiprows = 1)
+data = load_data()
 
 # defining a fuction to sort and remove dupicate names through dictionary
 def sort_remove(data):
@@ -49,6 +52,5 @@ def sort_remove(data):
     
     return uni
 
-# calling the sort_remove function
 uni = sort_remove(data)
 uni.tail()
