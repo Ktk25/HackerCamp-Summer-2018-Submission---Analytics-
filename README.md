@@ -1,7 +1,7 @@
 # HackerCamp-Summer-2018-Submission---Analytics-
 
 Hi!! I am **Kartikeya Chouhan**, B.Tech undergraduate from IIT Roorkee.    
-I am more familier with working on jupyter notebooks so I have also pushed the .ipynb file.
+I am more familier with working on jupyter notebooks so I have also pushed the .ipynb file.  
 I have written the follwing code in order the solve the **Analytics Assignment** for Innovaccer Summer Internship for 2018.
 
 **Importing the necessary Libraries**
@@ -20,14 +20,14 @@ def load_data():
 data = load_data()
 data.head(10)
 '''
-The above code shows the sample input dataset that we will pass to the model. Initially the dataset contains **103 rows**.   
+The above code shows the sample input dataset that we will pass to the model. Initially the dataset contains **103 rows**.     
 The first ten rows of the input dataset is shown below:
 
-As you can see there are duplications of names such as, WILLIAM SHAFFER JR, WILLIAN BLAND JR, etc.
+As you can see there are duplications of names such as, WILLIAM SHAFFER JR, WILLIAN BLAND JR, etc.  
 
-**Defining a fuction to sort and remove dupicate names through dictionary**
-Below is the fuction to add the unique value of names from the dataframe to a dictionary with the help of new column.   
-This new column contains all the information to uniquely identify a name.
+**Defining a fuction to sort and remove dupicate names through dictionary**  
+Below is the fuction to add the unique value of names from the dataframe to a dictionary with the help of new column.     
+This new column contains all the information to uniquely identify a name.  
 '''
 def sort_remove(data):
     
@@ -68,7 +68,7 @@ def sort_remove(data):
 uni = sort_remove(data)
 uni.tail(10)
 '''
-The above function returns a new dataset having **62 rows** consisting the unique names without any duplication.   
-Here is the sample output: 
+The above function returns a new dataset having **62 rows** consisting the unique names without any duplication.     
+Here is the sample output:   
 
 The above image is showing last 10 rows out of the 62 rows as the names have been arranged in an alphabetical order according to the First_name.
