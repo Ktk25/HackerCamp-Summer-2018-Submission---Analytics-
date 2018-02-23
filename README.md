@@ -1,6 +1,6 @@
 # HackerCamp-Summer-2018-Submission---Analytics-
 
-Hi!! I am **Kartikeya Chouhan**, B.Tech undergraduate from IIT Roorkee.
+Hi!! I am **Kartikeya Chouhan**, B.Tech undergraduate from IIT Roorkee.    
 I am more familier with working on jupyter notebooks so I have also pushed the .ipynb file.
 I have written the follwing code in order the solve the **Analytics Assignment** for Innovaccer Summer Internship for 2018.
 
