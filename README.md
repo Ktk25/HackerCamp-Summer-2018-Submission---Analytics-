@@ -22,7 +22,7 @@ data = load_data()
 data.head(10)
 ```
 The above code shows the sample input dataset that we will pass to the model. Initially the dataset contains **103 rows**.     
-The first ten rows of the input dataset is shown below:
+The first ten rows of the input dataset is shown below:    
 ![](Input_Dataset.PNG)  
 As you can see there are duplications of names such as, WILLIAM SHAFFER JR, WILLIAN BLAND JR, etc.
 
