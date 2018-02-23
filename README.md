@@ -72,5 +72,5 @@ uni.tail(10)
 ```
 The above function returns a new dataset having **62 rows** consisting the unique names without any duplication.     
 Here is the sample output:   
-
+![](Output_Dataset.PNG)  
 The above image is showing last 10 rows out of the 62 rows as the names have been arranged in an alphabetical order according to the First_name.
