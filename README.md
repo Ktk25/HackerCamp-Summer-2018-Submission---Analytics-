@@ -76,6 +76,6 @@ Here is the sample output:
 The above image is showing last 10 rows out of the 62 rows as the names have been arranged in an alphabetical order according to the First_name.  
 
 ---
-**Major Bug and solution**
+**Major Bug and solution**  
 First I tried to sort via lists then I found that list was unhashable type and it was difficult  converting it into Dataframe.  
 Then, I tried using dictionary for the same and it worked well.
